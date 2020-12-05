@@ -1,0 +1,37 @@
+header {
+    display: $flex;
+    justify-content: $around;
+    align-items: $center;
+    height: 15vh;
+    width: 100%;
+    margin: auto;
+
+    .burger {
+        width: 10%;
+        display: $no;
+    }
+
+    .logo {
+        span {
+            font-family: $dosis;
+            font-weight: $bold;
+            font-size: 40px;
+            color: $grey2;
+        }
+    }
+
+    nav {
+        ul {
+            text-transform: $uppercase;
+            li {
+                display: $inBl;
+                padding: $paddingLi;
+                font-family: $poppins;
+                font-weight: $med;
+                a {
+                    color: $white;
+                }
+            }
+        }
+    }
+}

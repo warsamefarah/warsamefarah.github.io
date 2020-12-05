@@ -1,0 +1,36 @@
+.fourthSec {
+    height: $windowH;
+    width: $full;
+    display: $flex;
+    flex-direction: $col;
+    align-items: $center;
+    padding-top: 150px;
+    background-color: $lightBG;
+
+    .cardlist {
+        width: $full;
+        display: $flex;
+        justify-content: $around;
+        flex-wrap: $wr;
+        .card {
+            width: $cardW;
+            height: $cardH;
+            background-color: $white;
+            border-radius: $cardRad;
+            box-shadow: $shad;
+            display: $flex;
+            align-items: $center;
+            justify-content: $around;
+            flex-direction: $col;
+            padding: $paddingLi;
+            text-align: $center;
+
+            p {
+                font-family: $poppins;
+                font-weight: $light;
+                color: $lightgreyb;
+                font-size: 16px;
+            }
+        }
+    }
+}

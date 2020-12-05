@@ -1,0 +1,85 @@
+// FONTS
+$poppins: Poppins, sans-serif;
+$lato: Lato, sans-serif;
+$dosis: Dosis, sans-serif;
+
+//TEXT TRANSFORM
+$uppercase: uppercase;
+$cap: capitalize;
+
+// WEIGHTS
+$light: 300;
+$reg: 400;
+$med: 500;
+$semib: 600;
+$bold: 700;
+$exbold: 800;
+
+// COLORS
+$white: #FFFFFF;
+$black: #000000;
+$lightergrey: #F6F7FB;
+$grey: #42495B;
+$grey2: #484848;
+$lightgreyb: #7A839E;
+$lightpurple: #7E76F9;
+$lightBG: #EBEAFE;
+$blue: #1000FF;
+$gradblue: linear-gradient(to left, #6156F9, #1A129F);
+$gradblueF: linear-gradient(to left, #4d41fd, #1A129F, #1A129F);
+
+// WINDOW
+$windowW: 100vw;
+$windowH: 100vh;
+$windowSec1: 85vh;
+
+// DIMENSIONS
+$cardW: 350px;
+$cardH: 400px;
+$full: 100%;
+
+// DISPLAY OPTIONS
+$flex: flex;
+$around: space-around;
+$betw: space-between;
+$center: center;
+$inBl: inline-block;
+$wr: wrap;
+$col: column;
+
+// POSITIONS
+$absolute: absolute;
+$fixed: fixed;
+$rel: relative;
+
+// PADDING
+$paddingLi: 0 20px;
+$paddingLiF: 0 10rem;
+$paddingL: 20px 0 0 15%;
+$paddingT: 20px;
+$paddingR: 20px 15% 0 0;
+$paddingCta: 13px 45px;
+$paddingCta2: 6px 18px;
+$paddingMouse: 38px;
+$paddingCard: 20px 8%;
+$paddingB: 60vh;
+
+// MARGIN
+$marginR: -10%;
+$marginT: 50px;
+$marginCard: 50px 80px;
+$marginInputT: 1.5rem 1rem 0 0;
+
+// BORDERS
+$no: none;
+$btnRad: 50px;
+$cardRad: 36px;
+
+// SHADOWS
+$shad: 0 0.7rem 0.7rem 0.1rem rgba($color: #000000, $alpha: 0.3);
+
+// BREAKPOINTS
+$mobile: 375px;
+$tablet: 768px;
+$smallScreen: 1024px;
+$desktop: 1440px;

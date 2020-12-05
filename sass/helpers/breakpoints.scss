@@ -1,0 +1,19 @@
+// Toutes les dimensions d'écrans sont regroupées ici
+
+@mixin phone {
+    @media screen and (max-width: $mobile){
+        @content;
+    }
+}
+
+@mixin tablet {
+    @media screen and (min-width: 376px) and (max-width: $tablet){
+        @content;
+    }
+}
+
+@mixin laptop {
+    @media screen and (min-width: 769px) and (max-width: $smallScreen){
+        @content;
+    }
+}

@@ -1,0 +1,28 @@
+.fifthSec {
+    height: $windowH*0.4;
+    width: $full;
+    display: $flex;
+    flex-direction: $col;
+    align-items: $center;
+    padding-top: 150px;
+
+    h2 {
+        margin: 10px 0;
+    }
+
+    form {
+        width: $full/2;
+        display: $flex;
+        justify-content: $around;
+        align-items: $center;
+        flex-wrap: $wr;
+        input[type=text] {
+            width: $full*0.6;
+            height: 52px;
+            padding-left: 1rem;
+            background-color: $lightergrey;
+            border: $no;
+        }
+    }
+
+}

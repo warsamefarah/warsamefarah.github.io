@@ -1,0 +1,669 @@
+@media screen and (max-width: 375px) {
+  header .burger {
+    display: block; }
+  header .logo span {
+    color: #FFFFFF !important; }
+  header nav {
+    display: none; }
+  footer {
+    height: 100vh; }
+    footer .bgimg-2 {
+      width: 50%;
+      top: 0; }
+    footer nav {
+      display: flex;
+      flex-direction: column;
+      background: linear-gradient(to left, #4d41fd, #1A129F, #1A129F);
+      width: 100%; }
+      footer nav #foot-icon {
+        width: 100% !important; }
+        footer nav #foot-icon li, footer nav #foot-icon ul:not(#foot-icon) li a, footer nav ul:not(#foot-icon) li #foot-icon a {
+          display: none; }
+        footer nav #foot-icon .txt span {
+          display: block; }
+      footer nav ul:not(#foot-icon) {
+        width: 100%;
+        align-items: center; }
+        footer nav ul:not(#foot-icon) li, footer nav ul:not(#foot-icon) li a {
+          display: none; }
+  main {
+    padding-bottom: 100px; }
+    main .firstSec {
+      height: 80vh; }
+      main .firstSec .content1 {
+        padding-top: 20px; }
+        main .firstSec .content1 article {
+          width: 100%;
+          text-align: center;
+          padding: 20px 0 0 0; }
+          main .firstSec .content1 article h1 {
+            color: #FFFFFF;
+            font-size: 2rem; }
+            main .firstSec .content1 article h1::after {
+              color: #FFFFFF;
+              font-size: 3rem; }
+          main .firstSec .content1 article p {
+            color: #FFFFFF; }
+        main .firstSec .content1 aside {
+          display: none;
+          position: absolute;
+          z-index: -1;
+          width: 100%;
+          opacity: 0.5; }
+        main .firstSec .content1 .icons {
+          display: none; }
+        main .firstSec .content1 #mouse {
+          display: none; }
+    main .secondSec {
+      height: 90vh; }
+      main .secondSec .content2 aside {
+        display: none; }
+      main .secondSec .content2 article {
+        padding: 20px;
+        margin: 0;
+        width: 100%;
+        text-align: center; }
+        main .secondSec .content2 article p {
+          margin: auto;
+          text-align: justify; }
+    main .thirdSec {
+      height: 360vh;
+      background-repeat: repeat;
+      background-size: contain; }
+      main .thirdSec h2, main .thirdSec h3, main .thirdSec h4, main .thirdSec .newstl {
+        padding: 0 20px; }
+      main .thirdSec .cardlist {
+        padding: 0; }
+        main .thirdSec .cardlist .card {
+          width: 80%;
+          height: 400px;
+          text-align: center;
+          margin: 0;
+          margin-top: 50px; }
+          main .thirdSec .cardlist .card .cta-2 {
+            position: static; }
+    main .fourthSec {
+      height: 210vh; }
+      main .fourthSec .cardlist .card {
+        margin-top: 50px; }
+    main .fifthSec {
+      text-align: center;
+      padding: 0; }
+      main .fifthSec h2, main .fifthSec h3, main .fifthSec h4, main .fifthSec .newstl {
+        padding-top: 20px; }
+      main .fifthSec form {
+        display: flex;
+        flex-direction: column; }
+        main .fifthSec form input[type=text] {
+          width: 80%;
+          margin-bottom: 50px; } }
+
+@media screen and (min-width: 376px) and (max-width: 768px) {
+  header .burger {
+    display: block; }
+  header .logo span {
+    color: #FFFFFF !important; }
+  footer {
+    height: 100vh; }
+    footer .bgimg-2 {
+      width: 50%;
+      top: 0; }
+    footer nav {
+      padding-bottom: 20px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      background: linear-gradient(to left, #4d41fd, #1A129F, #1A129F);
+      width: 100%; }
+      footer nav #foot-icon {
+        width: 40%;
+        height: 50%; }
+        footer nav #foot-icon .txt {
+          height: fit-content;
+          padding-bottom: 20px; }
+          footer nav #foot-icon .txt span {
+            display: block; }
+      footer nav ul:not(#foot-icon) {
+        width: 100%;
+        align-items: center; }
+        footer nav ul:not(#foot-icon) li, footer nav ul:not(#foot-icon) li a {
+          display: none; }
+  main {
+    padding-bottom: 100px; }
+    main .firstSec {
+      height: 100vh;
+      display: flex; }
+      main .firstSec .icons {
+        top: 5%;
+        left: 2.5rem; }
+      main .firstSec .content1 {
+        width: 100%;
+        height: 100%;
+        padding-top: 20px;
+        flex-direction: column-reverse;
+        flex-wrap: nowrap; }
+        main .firstSec .content1 article {
+          height: 50%;
+          width: 100%;
+          text-align: center;
+          padding: 20px 0 0 0; }
+          main .firstSec .content1 article h1 {
+            color: #42495B;
+            font-size: 2rem;
+            line-height: 50px; }
+            main .firstSec .content1 article h1::after {
+              color: #42495B;
+              font-size: 3rem; }
+          main .firstSec .content1 article p {
+            color: #42495B;
+            margin-bottom: 16.66667px; }
+        main .firstSec .content1 aside {
+          z-index: -1; }
+        main .firstSec .content1 #mouse {
+          display: none; }
+    main .secondSec {
+      height: 100vh; }
+      main .secondSec .content2 aside {
+        opacity: 0.4;
+        z-index: -1;
+        width: 40%; }
+      main .secondSec .content2 article {
+        width: 70%;
+        padding: 20px;
+        margin: 0;
+        text-align: center; }
+        main .secondSec .content2 article p {
+          color: #000000;
+          margin: auto;
+          text-align: justify; }
+    main .thirdSec {
+      height: 360vh;
+      background-repeat: repeat;
+      background-size: contain; }
+      main .thirdSec h2, main .thirdSec h3, main .thirdSec h4, main .thirdSec .newstl {
+        padding: 0 20px; }
+      main .thirdSec .cardlist {
+        padding: 0;
+        flex-direction: column;
+        align-items: center; }
+        main .thirdSec .cardlist .card {
+          width: 50%;
+          height: 400px;
+          text-align: center;
+          margin: 0;
+          margin-top: 50px; }
+    main .fourthSec {
+      height: 190vh;
+      padding-top: 20px; }
+      main .fourthSec .cardlist {
+        flex-direction: column;
+        align-items: center; }
+        main .fourthSec .cardlist .card {
+          margin-top: 50px; }
+    main .fifthSec {
+      text-align: center;
+      padding: 40px; }
+      main .fifthSec h2, main .fifthSec h3, main .fifthSec h4, main .fifthSec .newstl {
+        padding-top: 20px; }
+      main .fifthSec form {
+        display: flex;
+        flex-direction: column; }
+        main .fifthSec form input[type=text] {
+          width: 80%;
+          margin-bottom: 50px; } }
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  header .burger {
+    display: block; }
+  header .logo span {
+    color: #FFFFFF !important; }
+  footer {
+    height: 100vh; }
+    footer .bgimg-2 {
+      width: 50%;
+      top: 0; }
+    footer nav {
+      padding-bottom: 20px;
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      background: linear-gradient(to left, #4d41fd, #1A129F, #1A129F);
+      width: 80%;
+      height: 55% !important; }
+      footer nav #foot-icon {
+        height: 50%; }
+        footer nav #foot-icon .txt {
+          height: fit-content;
+          padding-bottom: 20px; }
+          footer nav #foot-icon .txt span {
+            display: block;
+            text-align: center; }
+      footer nav ul:not(#foot-icon) {
+        width: 20%;
+        align-items: center; }
+  main {
+    padding-bottom: 100px; }
+    main .firstSec {
+      height: 100vh;
+      display: flex; }
+      main .firstSec .icons {
+        top: 5%;
+        left: 2.5rem; }
+      main .firstSec .content1 {
+        width: 100%;
+        height: 100%;
+        padding-top: 20px;
+        flex-direction: column-reverse;
+        flex-wrap: nowrap;
+        align-items: center; }
+        main .firstSec .content1 article {
+          height: 50%;
+          width: 100%;
+          text-align: center;
+          padding: 20px 0 0 0; }
+          main .firstSec .content1 article h1 {
+            color: #42495B;
+            font-size: 2rem;
+            line-height: 50px; }
+            main .firstSec .content1 article h1::after {
+              color: #42495B;
+              font-size: 3rem; }
+          main .firstSec .content1 article p {
+            color: #42495B;
+            margin-bottom: 16.66667px; }
+        main .firstSec .content1 aside {
+          z-index: -1; }
+          main .firstSec .content1 aside picture {
+            display: flex;
+            justify-content: center; }
+            main .firstSec .content1 aside picture img {
+              width: 70%; }
+        main .firstSec .content1 #mouse {
+          display: none; }
+    main .secondSec {
+      height: 100vh; }
+      main .secondSec .content2 aside {
+        opacity: 0.4;
+        z-index: -1;
+        width: 40%; }
+      main .secondSec .content2 article {
+        width: 70%;
+        padding: 20px;
+        margin: 0;
+        text-align: center; }
+        main .secondSec .content2 article p {
+          color: #000000;
+          margin: auto;
+          text-align: justify; }
+    main .thirdSec {
+      height: 360vh;
+      background-repeat: repeat;
+      background-size: contain; }
+      main .thirdSec h2, main .thirdSec h3, main .thirdSec h4, main .thirdSec .newstl {
+        padding: 0 20px; }
+      main .thirdSec .cardlist {
+        padding: 0;
+        flex-direction: column;
+        align-items: center; }
+        main .thirdSec .cardlist .card {
+          width: 50%;
+          height: 400px;
+          text-align: center;
+          margin: 0;
+          margin-top: 50px; }
+    main .fourthSec {
+      height: 190vh;
+      padding-top: 20px; }
+      main .fourthSec .cardlist {
+        flex-direction: column;
+        align-items: center; }
+        main .fourthSec .cardlist .card {
+          margin-top: 50px; }
+    main .fifthSec {
+      text-align: center;
+      padding: 40px; }
+      main .fifthSec h2, main .fifthSec h3, main .fifthSec h4, main .fifthSec .newstl {
+        padding-top: 20px; }
+      main .fifthSec form {
+        display: flex;
+        flex-direction: column; }
+        main .fifthSec form input[type=text] {
+          width: 80%;
+          margin-bottom: 50px; } }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+a {
+  text-decoration: none; }
+
+li, footer nav ul:not(#foot-icon) li a {
+  list-style: none; }
+
+body {
+  width: 100%;
+  position: relative; }
+
+main {
+  padding-bottom: 60vh; }
+
+header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 15vh;
+  width: 100%;
+  margin: auto; }
+  header .burger {
+    width: 10%;
+    display: none; }
+  header .logo span {
+    font-family: Dosis, sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    color: #484848; }
+  header nav ul {
+    text-transform: uppercase; }
+    header nav ul li, header footer nav ul:not(#foot-icon) li a, footer header nav ul:not(#foot-icon) li a {
+      display: inline-block;
+      padding: 0 20px;
+      font-family: Poppins, sans-serif;
+      font-weight: 500; }
+      header nav ul li a, header footer nav ul:not(#foot-icon) li a a, footer header nav ul:not(#foot-icon) li a a {
+        color: #FFFFFF; }
+
+footer {
+  height: 60vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-size: 100vw;
+  position: absolute;
+  bottom: 0; }
+  footer .bgimg-2 {
+    position: absolute;
+    bottom: 0;
+    z-index: -1;
+    width: 100%; }
+  footer nav {
+    height: 75%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    position: absolute;
+    bottom: 0; }
+    footer nav #foot-icon {
+      width: 20%;
+      height: 100%;
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap; }
+    footer nav ul:not(#foot-icon) {
+      height: 80%;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around; }
+      footer nav ul:not(#foot-icon) li, footer nav ul:not(#foot-icon) li a {
+        font-family: Poppins, sans-serif;
+        font-weight: 400;
+        font-size: 1rem;
+        color: #FFFFFF; }
+      footer nav ul:not(#foot-icon) span {
+        font-family: Poppins, sans-serif;
+        font-size: 1.5rem;
+        font-weight: 500;
+        color: #FFFFFF; }
+    footer nav .txt {
+      height: 10%;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center; }
+      footer nav .txt span:first-child {
+        font-family: Dosis, sans-serif;
+        font-weight: 800;
+        font-size: 50px;
+        color: #FFFFFF; }
+      footer nav .txt span:last-child {
+        font-family: Poppins, sans-serif;
+        font-weight: 500;
+        font-size: 2.5rem;
+        color: #FFFFFF; }
+
+.cta, .cta-2, .cta-3 {
+  text-transform: uppercase;
+  color: #FFFFFF;
+  padding: 13px 45px;
+  background: linear-gradient(to left, #6156F9, #1A129F);
+  font-family: Poppins, sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  border-radius: 50px;
+  border: none; }
+
+.cta-2 {
+  padding: 6px 18px; }
+
+.cta-3 {
+  background: #FFFFFF;
+  border: 1px solid #1000FF;
+  color: #1000FF; }
+
+h1 {
+  font-weight: 400;
+  font-size: 60px;
+  color: #42495B;
+  text-transform: uppercase;
+  line-height: 80px; }
+  h1::after {
+    content: "For Business!";
+    font-weight: 700;
+    font-size: 84px;
+    color: #42495B;
+    text-transform: uppercase; }
+
+h2, h3, h4, .newstl {
+  font-family: Poppins, sans-serif;
+  font-weight: 600;
+  font-size: 50px;
+  color: #42495B;
+  text-transform: capitalize; }
+
+h3 {
+  font-size: 18px; }
+
+h4 {
+  color: #1000FF;
+  font-size: 30px; }
+
+.pricetl {
+  font-family: Dosis, sans-serif;
+  font-weight: 400;
+  font-size: 28px;
+  color: #42495B; }
+
+.newstl {
+  text-transform: none;
+  font-size: 32px;
+  font-weight: 400; }
+  .newstl::after {
+    content: "special news?";
+    font-weight: 600;
+    text-transform: capitalize; }
+
+.artdef-We, .artdef-Offer, .artdef-Price, .artdef-News {
+  font-family: Dosis, sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  color: #7E76F9; }
+
+.artdef-Offer {
+  text-transform: uppercase; }
+
+.firstSec {
+  height: 100vh;
+  width: 100%;
+  font-family: Poppins, sans-serif; }
+  .firstSec .content1 {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center; }
+    .firstSec .content1 article {
+      padding: 20px 0 0 15%;
+      width: 50%; }
+    .firstSec .content1 aside {
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      width: 50%; }
+  .firstSec .phone {
+    width: 100%;
+    margin: auto; }
+  .firstSec #mouse {
+    width: 28px;
+    height: 41px;
+    background: url(../../assets/picto/mouse.svg) no-repeat center center;
+    padding: 38px;
+    border-radius: 50px;
+    box-shadow: 0 0.7rem 0.7rem 0.1rem rgba(0, 0, 0, 0.3); }
+  .firstSec .icons {
+    position: absolute;
+    top: 500px;
+    left: 5rem; }
+    .firstSec .icons ul {
+      height: 200px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between; }
+      .firstSec .icons ul:last-child::after {
+        content: "";
+        background: linear-gradient(to left, #6156F9, #1A129F);
+        width: 3px;
+        height: 29px; }
+  .firstSec .bgimg-1 {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: -1;
+    rotate: 0.1deg; }
+  .firstSec p {
+    text-transform: uppercase;
+    color: #7A839E;
+    font-weight: 300;
+    padding-bottom: 21px;
+    font-size: 1.12rem; }
+
+.secondSec {
+  width: 100%;
+  height: 100vh; }
+  .secondSec .content2 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: url("../../assets/img/background-we-are.png") no-repeat right; }
+    .secondSec .content2 aside {
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      width: 50%; }
+    .secondSec .content2 article {
+      padding: 20px 15% 0 0;
+      width: 50%; }
+      .secondSec .content2 article p {
+        width: 80%;
+        font-family: Poppins, sans-serif;
+        font-weight: 300;
+        font-size: 16px;
+        color: #7A839E;
+        padding-bottom: 41px; }
+
+.thirdSec {
+  background: url(../../assets/img/background-service.png) no-repeat center; }
+  .thirdSec h2, .thirdSec h3, .thirdSec h4, .thirdSec .newstl {
+    padding: 20px 0 0 15%;
+    text-align: center; }
+  .thirdSec span {
+    padding: 20px 0 0 15%; }
+  .thirdSec .cardlist {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px 8%; }
+    .thirdSec .cardlist .card {
+      width: 350px;
+      height: 400px;
+      background-color: #FFFFFF;
+      margin: 50px 80px;
+      border-radius: 36px;
+      box-shadow: 0 0.7rem 0.7rem 0.1rem rgba(0, 0, 0, 0.3);
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      flex-direction: column;
+      padding: 0 20px;
+      position: relative; }
+      .thirdSec .cardlist .card p {
+        font-family: Lato, sans-serif;
+        font-weight: 400;
+        font-size: 15px;
+        color: #42495B; }
+      .thirdSec .cardlist .card .cta-2 {
+        position: relative;
+        right: -25%; }
+
+.fourthSec {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 150px;
+  background-color: #EBEAFE; }
+  .fourthSec .cardlist {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap; }
+    .fourthSec .cardlist .card {
+      width: 350px;
+      height: 400px;
+      background-color: #FFFFFF;
+      border-radius: 36px;
+      box-shadow: 0 0.7rem 0.7rem 0.1rem rgba(0, 0, 0, 0.3);
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      flex-direction: column;
+      padding: 0 20px;
+      text-align: center; }
+      .fourthSec .cardlist .card p {
+        font-family: Poppins, sans-serif;
+        font-weight: 300;
+        color: #7A839E;
+        font-size: 16px; }
+
+.fifthSec {
+  height: 40vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 150px; }
+  .fifthSec h2, .fifthSec h3, .fifthSec h4, .fifthSec .newstl {
+    margin: 10px 0; }
+  .fifthSec form {
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap; }
+    .fifthSec form input[type=text] {
+      width: 60%;
+      height: 52px;
+      padding-left: 1rem;
+      background-color: #F6F7FB;
+      border: none; }

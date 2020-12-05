@@ -1,0 +1,201 @@
+// Media query des tablettes
+
+@include tablet {
+    // HEADER
+    header {
+
+        .burger {
+            display: block;
+        }
+        .logo {
+
+            span {
+                color: $white !important;
+            }
+        }
+    }
+
+    // FOOTER
+    footer {
+        height: $windowH;
+        
+        .bgimg-2 {
+            width: 50%;
+            top: 0;
+        }
+        
+        nav {
+            padding-bottom: $paddingT;
+            display: $flex;
+            flex-direction: $col;
+            align-items: $center;
+            background: $gradblueF;
+            width: $full;
+            
+            #foot-icon {
+                width: $full/2.5;
+                height: 50%;
+
+                .txt {
+                    height: fit-content;
+                    padding-bottom: $paddingT;
+
+                    span {
+                        display: block;
+                    }
+                }
+            }
+
+            ul:not(#foot-icon) {
+                width: $full;
+                align-items: $center;
+
+                li {
+                    display: $no;
+                }
+
+            }
+
+        }
+    }
+
+    // PAGE CONTAINER
+    main {
+        padding-bottom: 100px;
+
+        // FIRST SECTION
+        .firstSec {
+            height: $windowH;
+            display: $flex;
+
+            .icons {
+                top: 5%;
+                left: 2.5rem;
+            }
+
+            .content1 {
+                width: $full;
+                height: $full;
+                padding-top: $paddingT;
+                flex-direction: column-reverse;
+                flex-wrap: nowrap;
+
+                article {
+                    height: $full/2;
+                    width: $full;
+                    text-align: $center;
+                    padding: 20px 0 0 0;
+                   
+                    h1 {
+                        color: $grey;
+                        font-size: 2rem;
+                        line-height: 50px;
+                        &::after{
+                            color: $grey;
+                            font-size: 3rem;
+                        }
+                    }
+                   
+                    p {
+                        color: $grey;
+                        margin-bottom: $marginT/3;
+                    }
+                }
+
+                aside {
+                    z-index: -1;
+                }
+
+                #mouse {
+                    display: $no;
+                }
+            }
+        }
+
+        // SECOND SECTION
+        .secondSec {
+            height: $windowH;
+
+            .content2 {
+
+                aside {
+                    opacity: 0.4;
+                    z-index: -1;
+                    width: $full*0.4;
+                }
+
+                article {
+                    width: $full*0.7;
+                    padding: $paddingT;
+                    margin: 0;
+                    text-align: center;
+
+                    p {
+                        color: $black;
+                        margin: auto;
+                        text-align: justify;
+                    }
+                }
+            }
+        }
+
+         // THIRD SECTION
+         .thirdSec {
+            height: $windowH*3.6;
+            background-repeat: repeat;
+            background-size: contain;
+
+            h2 {
+                padding: $paddingLi;
+            }
+
+            .cardlist {
+                padding: 0;
+                flex-direction: $col;
+                align-items: $center;
+
+                .card {
+                    width: 50%;
+                    height: 400px;
+                    text-align: $center;
+                    margin: 0;
+                    margin-top: $marginT;
+                }
+            }
+        }
+
+        // FOURTH SECTION
+        .fourthSec {
+            height: $windowH*1.9;
+            padding-top: $paddingT;
+            
+            .cardlist {
+                flex-direction: $col;
+                align-items: $center;
+                .card {
+                    margin-top: $marginT;
+                }
+            }
+        }
+
+        // FIFTH SECTION
+        .fifthSec {
+            text-align: $center;
+            padding: $paddingT*2;
+
+            h2 {
+                padding-top: $paddingT;
+            }
+
+            form {
+                display: $flex;
+                flex-direction: $col;
+
+                input[type=text] {
+                    width: $full*0.8;
+                    margin-bottom: $marginT;
+                }
+            }
+        }
+    }
+}

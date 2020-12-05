@@ -1,0 +1,32 @@
+.secondSec {
+    width: $full;
+    height: $windowH;
+
+    .content2 {
+        display: $flex;
+        justify-content: $around;
+        align-items: $center;
+        background: url("../../assets/img/background-we-are.png") no-repeat right;
+
+        aside {
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            width: 50%;
+        }
+
+        article {
+            padding: $paddingR;
+            width: 50%;
+
+            p {
+                width: 80%;
+                font-family: $poppins;
+                font-weight: $light;
+                font-size: 16px;
+                color: $lightgreyb;
+                padding-bottom: 41px;
+            }
+        }
+    }
+}

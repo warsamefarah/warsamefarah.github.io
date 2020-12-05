@@ -1,0 +1,197 @@
+// Media query du téléphone
+
+@include phone {
+    // HEADER
+    header {
+
+        .burger {
+            display: block;
+        }
+
+        .logo {
+
+            span {
+                color: $white !important;
+            }
+        }
+        
+        nav {
+            display: $no;
+        }
+    }
+    
+    // FOOTER
+    footer {
+        height: $windowH;
+
+        .bgimg-2 {
+            width: 50%;
+            top: 0;
+        }
+        
+        nav {
+            display: $flex;
+            flex-direction: $col;
+            background: $gradblueF;
+            width: $full;
+
+            #foot-icon {
+                width: $full !important;
+
+                li {
+                    display: $no;
+                }
+
+                .txt {
+
+                    span {
+                        display: block;
+                    }
+                }
+            }
+
+            ul:not(#foot-icon) {
+                width: $full;
+                align-items: $center;
+
+                li {
+                    display: $no;
+                }
+            }
+        }
+    }
+
+    // PAGE CONTAINER
+    main {
+        padding-bottom: 100px;
+
+        // FIRST SECTION
+        .firstSec {
+            height: $windowH*0.8;
+
+            .content1 {
+                padding-top: $paddingT;
+
+                article {
+                    width: $full;
+                    text-align: $center;
+                    padding: 20px 0 0 0;
+
+                    h1 {
+                        color: $white;
+                        font-size: 2rem;
+
+                        &::after{
+                            color: $white;
+                            font-size: 3rem;
+                        }
+                    }
+
+                    p {
+                        color: $white;
+                    }
+                }
+
+                aside {
+                    display: $no;
+                    position: $absolute;
+                    z-index: -1;
+                    width: $full;
+                    opacity: 0.5;
+                }
+
+                .icons {
+                    display: $no;
+                }
+
+                #mouse {
+                    display: $no;
+                }
+            }
+        }
+
+        // SECOND SECTION
+        .secondSec {
+            height: $windowH*0.9;
+
+            .content2 {
+
+                aside {
+                    display: none;
+                }
+
+                article {
+                    padding: $paddingT;
+                    margin: 0;
+                    width: $full;
+                    text-align: center;
+
+                    p {
+                        margin: auto;
+                        text-align: justify;
+                    }
+                }
+            }
+        }
+
+        // THIRD SECTION
+        .thirdSec {
+            height: $windowH*3.6;
+            background-repeat: repeat;
+            background-size: contain;
+
+            h2 {
+                padding: $paddingLi;
+            }
+
+            .cardlist {
+                padding: 0;
+
+                .card {
+                    width: 80%;
+                    height: 400px;
+                    text-align: $center;
+                    margin: 0;
+                    margin-top: $marginT;
+
+                    .cta-2 {
+                        position: static;
+                    }
+                }
+            }
+        }
+
+        // FOURTH SECTION
+        .fourthSec {
+            height: $windowH*2.1;
+
+            .cardlist {
+                
+                .card {
+                    margin-top: $marginT;
+                }
+            }
+        }
+
+        // FIFTH SECTION
+        .fifthSec {
+            text-align: $center;
+            padding: 0;
+
+            h2 {
+                padding-top: $paddingT;
+            }
+
+            form {
+                display: $flex;
+                flex-direction: $col;
+
+                input[type=text] {
+                    width: $full*0.8;
+                    margin-bottom: $marginT;
+                }
+            }
+        }
+    }
+
+}

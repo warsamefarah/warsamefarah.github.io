@@ -1,0 +1,46 @@
+.thirdSec {
+    background: url(../../assets/img/background-service.png) no-repeat center;
+
+    h2 {
+        padding: $paddingL;
+        text-align: $center;
+    }
+
+    span {
+        padding: $paddingL;
+    }
+
+    .cardlist {
+        display: $flex;
+        flex-wrap: $wr;
+        justify-content: $center;
+        padding: $paddingCard;
+        
+        .card {
+            width: $cardW;
+            height: $cardH;
+            background-color: $white;
+            margin: $marginCard;
+            border-radius: $cardRad;
+            box-shadow: $shad;
+            display: $flex;
+            align-items: $center;
+            justify-content: $around;
+            flex-direction: $col;
+            padding: $paddingLi;
+            position: $rel;
+
+            p {
+                font-family: $lato;
+                font-weight: $reg;
+                font-size: 15px;
+                color: $grey;
+            }
+
+            .cta-2 {
+                position: $rel;
+                right: -25%;
+            }
+        }
+    }
+}

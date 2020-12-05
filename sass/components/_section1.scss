@@ -1,0 +1,77 @@
+.firstSec{
+    height: $windowH;
+    width: $full;
+    font-family: $poppins;
+
+    .content1 {
+        width: $full;
+        display: $flex;
+        justify-content: $around;
+        flex-wrap: $wr;
+        align-items: $center;
+
+        article {
+            padding: $paddingL;
+            width: 50%;
+        }
+    
+        aside {
+            display: $flex;
+            align-items: $center;
+            justify-content: $around;
+            width: 50%;
+        }
+    }
+
+
+    .phone {
+        width: $full;
+        margin: auto;
+    }
+
+    #mouse {
+        width: 28px;
+        height: 41px;
+        background: url(../../assets/picto/mouse.svg) no-repeat center center;
+        padding: $paddingMouse;
+        border-radius: 50px;
+        box-shadow: $shad
+    }
+
+    .icons {
+        position: $absolute;
+        top: 500px;
+        left: 5rem;
+
+        ul {
+            height: 200px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+
+            &:last-child::after {
+                content: "";
+                background: $gradblue;
+                width: 3px;
+                height: 29px;
+            }
+
+        }
+    }
+
+    .bgimg-1{
+        position: $absolute;
+        top: 0;
+        right: 0;
+        z-index: -1;
+        rotate: 0.1deg;
+    }
+
+    p {
+        text-transform: $uppercase;
+        color: $lightgreyb;
+        font-weight: $light;
+        padding-bottom: 21px;
+        font-size: 1.12rem;
+    }
+}

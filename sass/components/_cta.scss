@@ -1,0 +1,23 @@
+.cta {
+    text-transform: $uppercase;
+    color: $white;
+    padding: $paddingCta;
+    background: $gradblue;
+    font-family: $poppins;
+    font-weight: $med;
+    font-size: 16px;
+    border-radius: $btnRad;
+    border: $no;
+}
+
+.cta-2 {
+    @extend .cta;
+    padding: $paddingCta2;
+}
+
+.cta-3 {
+    @extend .cta;
+    background: $white;
+    border: 1px solid $blue;
+    color: $blue;
+}

@@ -1,0 +1,73 @@
+h1 {
+    font-weight: $reg;
+    font-size: 60px;
+    color: $grey;
+    text-transform: $uppercase;
+    line-height: 80px;
+    &::after {
+        content: "For Business!";
+        font-weight: $bold;
+        font-size: 84px;
+        color: $grey;
+        text-transform: $uppercase;
+    }
+}
+
+h2 {
+    font-family: $poppins;
+    font-weight: $semib;
+    font-size: 50px;
+    color: $grey;
+    text-transform: $cap;
+}
+
+h3 {
+    @extend h2;
+    font-size: 18px;
+}
+
+h4 {
+    @extend h2;
+    color: $blue;
+    font-size: 30px;
+}
+
+.pricetl {
+    font-family: $dosis;
+    font-weight: $reg;
+    font-size: 28px;
+    color: $grey;
+}
+
+.newstl {
+    @extend h2;
+    text-transform: $no;
+    font-size: 32px;
+    font-weight: $reg;
+
+    &::after {
+        content: "special news?";
+        font-weight: $semib;
+        text-transform: $cap;
+    }
+}
+
+.artdef-We {
+    font-family: $dosis;
+    font-weight: $reg;
+    font-size: 20px;
+    color: $lightpurple;
+}
+
+.artdef-Offer {
+    @extend .artdef-We;
+    text-transform: $uppercase;
+}
+
+.artdef-Price {
+    @extend .artdef-We
+}
+
+.artdef-News {
+    @extend .artdef-We
+}
